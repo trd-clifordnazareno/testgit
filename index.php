@@ -11,7 +11,7 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("POST", "http://localhost/update_table.php?");
+xhr.open("POST", "http://richmedia.com.ph/update_table.php?");
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.setRequestHeader("Content-Type", "text/plain");
