@@ -65,10 +65,10 @@
 
 
         <?php
-        $servername = "ftp.richmedia.com.ph";
-        $username = "richmed_rmni_admin";
-        $password = "rmni_admin";
-        $dbname = "richmed_inventory";
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "project_inv";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
